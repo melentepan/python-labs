@@ -1,0 +1,39 @@
+# Задание. Используя словесное описание, реализовать работу с очередью.
+
+# Очередь работает по правилу FIFO: первым выходит тот, кто первым вошёл.
+# Добавляем элемент в конец, а извлекаем из начала.
+# enqueue добавляет, dequeue извлекает, peek показывает первый элемент.
+# is_empty проверяет пустоту, size возвращает количество элементов.
+# Пример: добавили 10, затем 20; извлечение вернёт 10, следующим будет 20.
+# Пустую очередь нельзя читать или извлекать: методы вызывают IndexError.
+# Используется обычный список без модулей. Добавление в среднем O(1),
+# извлечение O(N), поскольку pop(0) сдвигает остальные элементы.
+# Просмотр первого элемента, размера и проверка пустоты требуют O(1).
+
+
+class Queue:
+
+    def __init__(self):
+        self._items = []
+
+    def enqueue(self, value):
+        self._items.append(value)
+
+    def dequeue(self):
+        if self.is_empty():
+            raise IndexError('Очередь пуста.')
+        return self._items.pop(0)
+
+    def peek(self):
+        if self.is_empty():
+            raise IndexError('Очередь пуста.')
+        return self._items[0]
+
+    def is_empty(self):
+        return len(self._items) == 0
+
+    def size(self):
+        return len(self._items)
+
+    def show(self):
+        return self._items.copy()
