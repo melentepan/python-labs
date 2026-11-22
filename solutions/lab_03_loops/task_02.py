@@ -7,3 +7,7 @@ def solve(n):
     for i in range(1, n + 1):
         product *= 1 + i / 10
     print('Произведение:', product)
+
+
+# n = int(input("Введите n: "))
+# solve(n)

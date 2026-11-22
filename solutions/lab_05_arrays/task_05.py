@@ -11,3 +11,7 @@ def solve(numbers):
     for i in range(last_even_number - 1, 0, -2):
         result.append(numbers[i])
     print('Элементы в заданном порядке:', *result)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(numbers)

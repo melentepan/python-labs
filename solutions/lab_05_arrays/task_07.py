@@ -11,3 +11,7 @@ def solve(numbers):
             difference = 0
             break
     print('Разность прогрессии или 0:', difference)
+
+
+# numbers = list(map(int, input('Введите числа через пробел: ').split()))
+# solve(numbers)

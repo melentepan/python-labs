@@ -13,3 +13,12 @@ def solve(matrix):
                 total += matrix[i][j]
         sums.append(total)
     print('Суммы диагоналей:', *sums)
+
+
+# m = int(input("Введите количество строк: "))
+# n = m
+# matrix = []
+# for i in range(m):
+#     row = list(map(float, input(f"Строка {i + 1} ({n} чисел через пробел): ").split()))
+#     matrix.append(row)
+# solve(matrix)

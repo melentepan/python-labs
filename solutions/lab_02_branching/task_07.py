@@ -12,3 +12,8 @@ def solve(day, month):
         print('Недопустимый день для указанного месяца.')
     else:
         print(days[day - 1], months[month - 1])
+
+
+# day = int(input("Введите day: "))
+# month = int(input("Введите month: "))
+# solve(day, month)

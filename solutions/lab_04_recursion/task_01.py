@@ -14,3 +14,7 @@ def solve(n):
         print('Число должно быть неотрицательным.')
     else:
         print('Факториал:', factorial(n))
+
+
+# n = int(input("Введите n: "))
+# solve(n)

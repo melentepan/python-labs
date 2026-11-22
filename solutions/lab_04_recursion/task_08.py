@@ -10,3 +10,7 @@ def count_digits(number):
 
 def solve(number):
     print('Количество цифр:', count_digits(number))
+
+
+# number = int(input("Введите number: "))
+# solve(number)

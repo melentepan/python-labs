@@ -10,3 +10,9 @@ def solve(n, a, b):
         numbers.append(total)
         total += numbers[-1]
     print('Массив:', *numbers)
+
+
+# n = int(input("Введите n: "))
+# a = int(input("Введите a: "))
+# b = int(input("Введите b: "))
+# solve(n, a, b)

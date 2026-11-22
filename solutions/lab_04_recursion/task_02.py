@@ -13,3 +13,7 @@ def solve(n):
         print('Номер должен быть неотрицательным.')
     else:
         print('Число Фибоначчи:', fibonacci(n))
+
+
+# n = int(input("Введите n: "))
+# solve(n)

@@ -8,3 +8,8 @@ def solve(a, b):
     print('Разность квадратов:', a_squared - b_squared)
     print('Произведение квадратов:', a_squared * b_squared)
     print('Частное квадратов:', a_squared / b_squared)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# solve(a, b)

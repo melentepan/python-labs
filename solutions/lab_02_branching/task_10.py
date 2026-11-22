@@ -17,3 +17,7 @@ def solve(year):
     else:
         color = feminine_colors[color_index]
     print('год', color, animals[animal_index])
+
+
+# year = int(input("Введите year: "))
+# solve(year)

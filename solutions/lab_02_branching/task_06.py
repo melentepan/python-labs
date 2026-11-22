@@ -17,3 +17,7 @@ def solve(number):
         else:
             digits = 'трехзначное'
         print(parity, digits, 'число')
+
+
+# number = int(input("Введите number: "))
+# solve(number)

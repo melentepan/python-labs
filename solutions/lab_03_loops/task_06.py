@@ -8,3 +8,8 @@ def solve(a, b):
         for i in range(number):
             print(number, end=' ')
         print()
+
+
+# a = int(input("Введите a: "))
+# b = int(input("Введите b: "))
+# solve(a, b)

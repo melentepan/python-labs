@@ -16,3 +16,12 @@ def solve(matrix):
     print('Преобразованная матрица:')
     for row in matrix:
         print(*row)
+
+
+# m = int(input("Введите количество строк: "))
+# n = int(input("Введите количество столбцов: "))
+# matrix = []
+# for i in range(m):
+#     row = list(map(float, input(f"Строка {i + 1} ({n} чисел через пробел): ").split()))
+#     matrix.append(row)
+# solve(matrix)

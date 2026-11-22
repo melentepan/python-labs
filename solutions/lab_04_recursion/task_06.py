@@ -16,3 +16,7 @@ def reverse_words(text):
 
 def solve(text):
     print('Обратный порядок слов:', reverse_words(text))
+
+
+# text = input("Введите строку: ")
+# solve(text)

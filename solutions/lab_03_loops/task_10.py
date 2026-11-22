@@ -6,3 +6,8 @@ def solve(a, b):
     while b != 0:
         a, b = (b, a % b)
     print('НОД:', a)
+
+
+# a = int(input("Введите a: "))
+# b = int(input("Введите b: "))
+# solve(a, b)

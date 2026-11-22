@@ -9,3 +9,8 @@ def solve(a, n):
         term *= -a
         total += term
     print('Значение выражения:', total)
+
+
+# a = float(input("Введите a: "))
+# n = int(input("Введите n: "))
+# solve(a, n)

@@ -9,3 +9,8 @@ def solve(a, n):
         power *= a
         total += power
     print('Сумма:', total)
+
+
+# a = float(input("Введите a: "))
+# n = int(input("Введите n: "))
+# solve(a, n)

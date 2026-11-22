@@ -9,3 +9,7 @@ def solve(numbers):
         if numbers[i] < minimum:
             minimum = numbers[i]
     print('Минимум среди элементов с четными номерами:', minimum)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(numbers)

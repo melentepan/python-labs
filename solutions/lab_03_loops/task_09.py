@@ -12,3 +12,7 @@ def solve(p):
         months += 1
     print('Количество месяцев K:', months)
     print('Итоговый размер вклада S:', balance)
+
+
+# p = float(input("Введите p: "))
+# solve(p)

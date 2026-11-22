@@ -4,3 +4,8 @@
 def solve(a, b):
     average = (a + b) / 2
     print('Среднее арифметическое:', average)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# solve(a, b)

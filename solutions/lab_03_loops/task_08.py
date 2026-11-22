@@ -10,3 +10,7 @@ def solve(n):
         total += k
     print('K =', k)
     print('Сумма:', total)
+
+
+# n = int(input("Введите n: "))
+# solve(n)

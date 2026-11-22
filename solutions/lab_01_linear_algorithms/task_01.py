@@ -7,3 +7,8 @@ def solve(a, b):
     perimeter = 2 * (a + b)
     print('Площадь:', area)
     print('Периметр:', perimeter)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# solve(a, b)

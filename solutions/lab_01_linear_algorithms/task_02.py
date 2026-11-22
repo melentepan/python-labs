@@ -5,3 +5,7 @@
 def solve(diameter):
     length = 3.14 * diameter
     print('Длина окружности:', length)
+
+
+# diameter = float(input("Введите diameter: "))
+# solve(diameter)

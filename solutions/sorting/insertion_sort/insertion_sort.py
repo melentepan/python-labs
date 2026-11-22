@@ -22,3 +22,7 @@ def insertion_sort(numbers):
 def solve(numbers):
     insertion_sort(numbers)
     print('Отсортированный массив:', *numbers)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(numbers)

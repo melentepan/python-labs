@@ -30,3 +30,8 @@ def solve(numbers, target):
             print('Элемент не найден.')
         else:
             print('Номер найденного элемента:', index + 1)
+
+
+# numbers = list(map(float, input('Введите числа по возрастанию через пробел: ').split()))
+# target = float(input("Введите target: "))
+# solve(numbers, target)

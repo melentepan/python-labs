@@ -14,3 +14,7 @@ def solve(numbers):
         left += 1
         right -= 1
     print('Элементы в заданном порядке:', *result)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(numbers)

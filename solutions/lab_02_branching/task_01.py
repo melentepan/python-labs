@@ -13,3 +13,8 @@ def solve(a, b):
         a = b
     print('A =', a)
     print('B =', b)
+
+
+# a = int(input("Введите a: "))
+# b = int(input("Введите b: "))
+# solve(a, b)

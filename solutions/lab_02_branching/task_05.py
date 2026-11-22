@@ -15,3 +15,7 @@ def solve(number):
         else:
             parity = 'нечетное'
         print(sign, parity, 'число')
+
+
+# number = int(input("Введите number: "))
+# solve(number)

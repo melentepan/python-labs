@@ -8,3 +8,8 @@ def solve(a, b):
     while remainder >= b:
         remainder -= b
     print('Длина незанятой части:', remainder)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# solve(a, b)

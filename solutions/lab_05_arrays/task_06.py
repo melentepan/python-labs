@@ -8,3 +8,9 @@ def solve(numbers, k, l):
         total += numbers[i]
     average = total / (l - k + 1)
     print('Среднее арифметическое:', average)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# k = int(input("Введите k: "))
+# l = int(input("Введите l: "))
+# solve(numbers, k, l)

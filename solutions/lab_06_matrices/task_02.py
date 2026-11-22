@@ -11,3 +11,13 @@ def solve(matrix, k):
         product *= value
     print('Сумма:', total)
     print('Произведение:', product)
+
+
+# m = int(input("Введите количество строк: "))
+# n = int(input("Введите количество столбцов: "))
+# matrix = []
+# for i in range(m):
+#     row = list(map(float, input(f"Строка {i + 1} ({n} чисел через пробел): ").split()))
+#     matrix.append(row)
+# k = int(input("Введите k: "))
+# solve(matrix, k)

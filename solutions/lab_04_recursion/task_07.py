@@ -16,3 +16,7 @@ def solve(n):
         result = prime_sum(n)
         print(n, '=', end=' ')
         print(*result, sep=' + ')
+
+
+# n = int(input("Введите n: "))
+# solve(n)

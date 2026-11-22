@@ -9,3 +9,7 @@ def solve(n):
         total += 2 * i - 1
         print('Текущая сумма:', total)
     print('Квадрат числа N:', total)
+
+
+# n = int(input("Введите n: "))
+# solve(n)

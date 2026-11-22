@@ -13,3 +13,7 @@ def solve(numbers):
                 last_maximum = i + 1
                 break
     print('Номер последнего локального максимума:', last_maximum)
+
+
+# numbers = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(numbers)

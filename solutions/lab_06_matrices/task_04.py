@@ -15,3 +15,12 @@ def solve(matrix):
             if matrix[i][j] > average:
                 count += 1
         print(f'Столбец {j + 1}, количество элементов больше среднего:', count)
+
+
+# m = int(input("Введите количество строк: "))
+# n = int(input("Введите количество столбцов: "))
+# matrix = []
+# for i in range(m):
+#     row = list(map(float, input(f"Строка {i + 1} ({n} чисел через пробел): ").split()))
+#     matrix.append(row)
+# solve(matrix)

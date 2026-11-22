@@ -5,3 +5,7 @@ def solve(x):
     cube = (x - 3) ** 3
     y = 4 * cube ** 2 - 7 * cube + 2
     print('y =', y)
+
+
+# x = float(input("Введите x: "))
+# solve(x)

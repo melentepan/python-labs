@@ -10,3 +10,9 @@ def solve(n, a, d):
         numbers.append(term)
         term *= d
     print('Массив:', *numbers)
+
+
+# n = int(input("Введите n: "))
+# a = float(input("Введите a: "))
+# d = float(input("Введите d: "))
+# solve(n, a, d)

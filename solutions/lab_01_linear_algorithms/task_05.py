@@ -8,3 +8,8 @@ def solve(a, b):
     print('Разность модулей:', a_absolute - b_absolute)
     print('Произведение модулей:', a_absolute * b_absolute)
     print('Частное модулей:', a_absolute / b_absolute)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# solve(a, b)

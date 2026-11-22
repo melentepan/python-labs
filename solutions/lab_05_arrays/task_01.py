@@ -7,3 +7,7 @@ def solve(n):
     for i in range(n):
         numbers.append(2 * i + 1)
     print('Массив:', *numbers)
+
+
+# n = int(input("Введите n: "))
+# solve(n)

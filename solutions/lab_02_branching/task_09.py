@@ -20,3 +20,7 @@ def solve(number):
             if remainder % 10 != 0:
                 words += ' ' + units[remainder % 10]
         print(words)
+
+
+# number = int(input("Введите number: "))
+# solve(number)

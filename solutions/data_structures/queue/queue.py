@@ -37,3 +37,16 @@ class Queue:
 
     def show(self):
         return self._items.copy()
+
+
+# queue = Queue()
+# numbers = list(map(float, input("Введите числа для очереди через пробел: ").split()))
+# for number in numbers:
+#     queue.enqueue(number)
+# print("Очередь:", *queue.show())
+# if not queue.is_empty():
+#     print("Первый элемент:", queue.peek())
+#     print("Извлечённый элемент:", queue.dequeue())
+# print("Оставшаяся очередь:", *queue.show())
+# print("Размер очереди:", queue.size())
+# print("Очередь пуста:", queue.is_empty())

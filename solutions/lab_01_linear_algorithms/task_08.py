@@ -6,3 +6,9 @@ def solve(a, b, c):
     ac = abs(c - a)
     bc = abs(c - b)
     print('Произведение длин AC и BC:', ac * bc)
+
+
+# a = float(input("Введите a: "))
+# b = float(input("Введите b: "))
+# c = float(input("Введите c: "))
+# solve(a, b, c)

@@ -16,3 +16,12 @@ def solve(ax, ay, bx, by, cx, cy):
         print('B:', bx, by)
         print('C:', cx, cy)
         print('Расстояние:', ab_squared ** 0.5)
+
+
+# ax = float(input("Введите ax: "))
+# ay = float(input("Введите ay: "))
+# bx = float(input("Введите bx: "))
+# by = float(input("Введите by: "))
+# cx = float(input("Введите cx: "))
+# cy = float(input("Введите cy: "))
+# solve(ax, ay, bx, by, cx, cy)

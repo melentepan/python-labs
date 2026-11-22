@@ -16,3 +16,7 @@ def solve(n):
     else:
         hanoi(n)
         print('Количество ходов:', 2 ** n - 1)
+
+
+# n = int(input("Введите n: "))
+# solve(n)

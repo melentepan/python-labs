@@ -7,3 +7,7 @@ def solve(price):
         weight = i / 10
         cost = price * weight
         print(f'{weight:.1f} кг - {cost:.2f} руб.')
+
+
+# price = float(input("Введите price: "))
+# solve(price)

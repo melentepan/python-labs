@@ -14,3 +14,8 @@ def solve(x, n):
         print('Ноль нельзя возвести в отрицательную степень.')
     else:
         print('Результат:', power(x, n))
+
+
+# x = float(input("Введите x: "))
+# n = int(input("Введите n: "))
+# solve(x, n)

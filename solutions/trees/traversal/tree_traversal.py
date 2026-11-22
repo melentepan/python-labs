@@ -30,3 +30,7 @@ def solve(values):
     print('Прямой обход дерева:', end=' ')
     preorder(root)
     print()
+
+
+# values = list(map(float, input('Введите числа через пробел: ').split()))
+# solve(values)

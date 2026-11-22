@@ -13,3 +13,8 @@ def solve(x, y):
         print('Координатная четверть: 3')
     else:
         print('Координатная четверть: 4')
+
+
+# x = float(input("Введите x: "))
+# y = float(input("Введите y: "))
+# solve(x, y)

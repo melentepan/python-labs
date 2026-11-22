@@ -25,3 +25,7 @@ def solve(number):
         else:
             ending = 'учебных заданий'
         print(words, ending)
+
+
+# number = int(input("Введите number: "))
+# solve(number)

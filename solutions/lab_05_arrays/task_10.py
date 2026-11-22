@@ -15,3 +15,7 @@ def solve(numbers):
         if first_number != 0:
             break
     print('Номера одинаковых элементов:', first_number, second_number)
+
+
+# numbers = list(map(int, input('Введите числа через пробел: ').split()))
+# solve(numbers)
