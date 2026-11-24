@@ -1,9 +1,9 @@
-from solutions.sorting.bubble_sort.bubble_sort import solve as task_01
-from solutions.sorting.insertion_sort.insertion_sort import solve as task_02
-from solutions.sorting.selection_sort.selection_sort import solve as task_03
-from solutions.searching.binary_search.binary_search import solve as task_04
-from solutions.trees.traversal.tree_traversal import solve as task_05
-from solutions.data_structures.queue.queue import Queue
+from solutions.lab_07_bubble_sort.bubble_sort import solve as task_01
+from solutions.lab_08_insertion_sort.insertion_sort import solve as task_02
+from solutions.lab_09_selection_sort.selection_sort import solve as task_03
+from solutions.lab_10_binary_search.binary_search import solve as task_04
+from solutions.lab_11_tree_traversal.tree_traversal import solve as task_05
+from solutions.lab_12_queue.queue import Queue
 
 
 print('\n\n' + '#' * 80)
