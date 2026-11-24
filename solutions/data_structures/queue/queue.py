@@ -14,28 +14,36 @@
 class Queue:
 
     def __init__(self):
+        # У каждого объекта очереди свой список; self — текущий объект.
         self._items = []
 
     def enqueue(self, value):
+        # Новый элемент занимает место в конце очереди.
         self._items.append(value)
 
     def dequeue(self):
+        # Из пустой очереди извлекать нечего, поэтому вызываем ошибку.
         if self.is_empty():
             raise IndexError('Очередь пуста.')
+        # Удаляем первый элемент и возвращаем его вызывающему коду.
         return self._items.pop(0)
 
     def peek(self):
         if self.is_empty():
             raise IndexError('Очередь пуста.')
+        # Только смотрим первый элемент — очередь не изменяется.
         return self._items[0]
 
     def is_empty(self):
+        # Возвращаем True, если элементов нет, иначе False.
         return len(self._items) == 0
 
     def size(self):
+        # Количество элементов, которые сейчас находятся в очереди.
         return len(self._items)
 
     def show(self):
+        # Отдаём копию, чтобы через результат нельзя было изменить очередь.
         return self._items.copy()
 
 

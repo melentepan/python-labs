@@ -10,18 +10,25 @@
 
 
 def bubble_sort(numbers):
+    # end — правый край ещё не отсортированной части списка.
     for end in range(len(numbers) - 1, 0, -1):
+        # В начале прохода считаем, что обменов не будет.
         swapped = False
+        # Сравниваем соседей до end, не затрагивая готовую правую часть.
         for i in range(end):
             if numbers[i] > numbers[i + 1]:
+                # Если левый больше правого, меняем их местами.
                 numbers[i], numbers[i + 1] = (numbers[i + 1], numbers[i])
                 swapped = True
+        # Нет обменов — все соседи уже стоят в правильном порядке.
         if not swapped:
             break
+    # Возвращаем тот же список, который изменили внутри функции.
     return numbers
 
 def solve(numbers):
     bubble_sort(numbers)
+    # Звёздочка выводит элементы списка через пробел, без скобок.
     print('Отсортированный массив:', *numbers)
 
 

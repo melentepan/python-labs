@@ -10,16 +10,23 @@
 
 
 def selection_sort(numbers):
+    # i — позиция, на которую ставим минимум оставшейся части.
     for i in range(len(numbers) - 1):
+        # Сначала считаем минимальным первый элемент этой части.
         minimum_index = i
+        # Просматриваем элементы правее i, пока ничего не переставляя.
         for j in range(i + 1, len(numbers)):
             if numbers[j] < numbers[minimum_index]:
+                # Запоминаем место нового минимума, а не только его значение.
                 minimum_index = j
+        # После полного поиска ставим минимум на позицию i.
+        # Если он уже там, обмен не нужен.
         if minimum_index != i:
             numbers[i], numbers[minimum_index] = (numbers[minimum_index], numbers[i])
     return numbers
 
 def solve(numbers):
+    # Функция переставляет элементы исходного списка.
     selection_sort(numbers)
     print('Отсортированный массив:', *numbers)
 

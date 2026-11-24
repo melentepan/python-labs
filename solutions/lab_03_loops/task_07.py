@@ -3,10 +3,19 @@
 # деления, найти длину незанятой части отрезка A.
 
 
+def decimal_places(value):
+    mantissa, _, exponent = str(value).partition('e')
+    digits = len(mantissa.partition('.')[2])
+    if exponent:
+        digits -= int(exponent)
+    return max(0, digits)
+
+
 def solve(a, b):
+    digits = max(decimal_places(a), decimal_places(b))
     remainder = a
     while remainder >= b:
-        remainder -= b
+        remainder = round(remainder - b, digits)
     print('Длина незанятой части:', remainder)
 
 

@@ -12,24 +12,33 @@
 
 
 def binary_search(numbers, target):
+    # Границы участка включены: от первого до последнего индекса.
     left = 0
     right = len(numbers) - 1
+    # -1 останется ответом, если ни одного совпадения не найдём.
     result = -1
+    # При равных границах нужно проверить ещё один элемент.
     while left <= right:
+        # Целочисленное деление даёт целый индекс середины.
         middle = (left + right) // 2
         if numbers[middle] < target:
+            # Середина и всё левее неё слишком малы — продолжаем справа.
             left = middle + 1
         else:
             if numbers[middle] == target:
+                # Нашли совпадение, но слева может быть ещё более раннее.
                 result = middle
+            # Проверяем левую часть и при равенстве, и при большем значении.
             right = middle - 1
     return result
 
 def solve(numbers, target):
     n = len(numbers)
     ordered = True
+    # Для бинарного поиска список должен быть отсортирован заранее.
     for i in range(1, n):
         if numbers[i] < numbers[i - 1]:
+            # Одной нарушенной пары достаточно, чтобы отклонить список.
             ordered = False
             break
     if not ordered:
@@ -39,6 +48,7 @@ def solve(numbers, target):
         if index == -1:
             print('Число не найдено.')
         else:
+            # Индекс начинается с нуля, а номер элемента — с единицы.
             print('Номер первого вхождения:', index + 1)
 
 
